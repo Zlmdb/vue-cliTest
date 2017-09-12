@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h2>selint的standard害得我好惨</h2>
+	<h2>2017/9/12修改</h2>
     <ul>
       <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
       <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
