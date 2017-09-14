@@ -1,24 +1,16 @@
 <template>
   <div class="hello">
-    <h1>HELLO</h1>
+	   <h2>2017/9/13修改</h2>
     <ul>
-      <li><a href="https://vuejs.org" target="_blank">我是hello</a></li>
+      <li><a href="https://vuejs.org" target="_blank">我是router1</a></li>
       <br>
     </ul>
-    <!-- <comn></comn> -->
   </div>
 </template>
 
 <script>
-// import comn from './cump.vue'
 export default {
-  name: 'hello',
-  data () {
-    return {
-      msg: 'Welcome to  my -cli'
-    }
-  }
-  // components: {comn}
+  name: 'router1'
 }
 </script>
 

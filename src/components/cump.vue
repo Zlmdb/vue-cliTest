@@ -1,27 +1,25 @@
 <template>
   <div class="hello">
-    <h2>selint的standard害得我好惨</h2>
-	<h2>2017/9/12修改</h2>
+	   <h2>2017/9/12修改</h2>
     <ul>
-      <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
+      <li><a href="https://vuejs.org" target="_blank">我是cump</a></li>
       <br>
-      <li><a href="http://vuejs-templates.github.io/webpack/" target="_blank">Docs for This Template</a></li>
     </ul>
-    <h2>Ecosystem</h2>
+    <router1></router1>
+    <router-link to='rou1'>路由1</router-link>
   </div>
 </template>
 
 <script>
+import router1 from './router1.vue'
 export default {
   name: 'cump',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
-  }
+  },
+  components: {router1}
 }
 </script>
 

@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view></router-view>
+    <!-- <img src="./assets/logo.png"> -->
     <v-cump></v-cump>
+    <router-view></router-view>
   </div>
 </template>
 
